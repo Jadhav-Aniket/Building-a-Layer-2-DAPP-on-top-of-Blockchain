@@ -1,0 +1,21 @@
+# Libraries Required : 
+	-web3
+    -json
+    -networkx
+	-matplotlib.pyplot
+	-numpy
+	-random
+# Compilation Of Code:
+	- Initialize :
+            # Total Nodes = 100 (users)
+            # barabasi_albert_graph algorithm input (n,m)
+            # n = 100, m = 2
+            # Fired 1000 Transactions
+	- to compile the code do the following:
+		-- install prerequisite libraries 
+		-- To Execute:
+            $ truffle migrate
+            # change deployed_contract_address
+            $ python3 client.py
+# Output:
+	- Output is generated and saved as graphs images.
